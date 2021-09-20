@@ -1,0 +1,44 @@
+
+
+
+Potential solutions:
+- if the background is the source of problem the horiztonal scrolling, 
+crop it out with photoshop & rotate it vertically instead of horzontally
+add padding to the background
+- make the header float
+
+
+THINGS TO REMEMBER:
+have the 768 px
+
+>
+title / pciture
+arrow (to the left)
+
+TOP PRIORITIES:
+fix the 768 grid for the navigation and go from there
+- Media query 768 is streched out to 1000 veiw port
+
+
+ERRORS:
+(HTML)
+- Rotate the website background
+(CSS - GENERAL)
+- website-background > have it contrast better/add animation to it 
+(CSS - 320PX)
+- preview book title > first book entry not centered
+- nav-button-label > have the font slighly small and more gapped out
+(CSS - 768PX)
+- add side bar with SM on it
+- optimize it
+(CSS - 1024PX)
+- optimize it
+(JAVASCRIPT)
+
+REPO UPDATES:
+(HTML - MOBILE)
+- horziontal margins sorted!
+
+THINGS OIN THE LIST:
+- MAKING MY NAV FLUID -> ITS STATIC
+- MAKING THE BACKGROUND ANIMATED TO OPAIC

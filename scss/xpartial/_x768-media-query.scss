@@ -1,0 +1,240 @@
+
+// ========== 768PX MEDIA QUERY ==========
+
+// @media (min-width: 768px) {
+@media screen and (min-width: 613px) {
+
+.grid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-template-rows: 135px 1fr;
+    grid-template-areas:  
+    "header header"
+    "nav main";
+    // color: red;
+    // background-color: red;
+// color: red;
+}
+
+header {
+    // @include solid-background;
+    grid-area: header;
+}
+
+nav {
+    // @include solid-background;
+    grid-area: nav;
+}
+
+main {
+    // background-color: pink;
+    grid-area: main;
+}
+
+//GENERAL BASICAL STYLING
+
+nav, .about-me, .check-it-out, .my-books{
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+
+
+.section-titles-background-aboutme, .section-titles-checkout, .section-titles-background-mybooks {
+    text-align: initial;
+    // justify-content: space-evenly;
+    margin: 0;
+    justify-content: center ;
+    flex-basis: 50%;
+    font-size: 40px;
+    // margin-top: 35px;
+    // justify-content: space-between ;
+}
+
+.sections-content-background, .sections-content {
+    font-size: 25px;
+    width: 85%;
+    text-align: center;
+margin: auto;    // padding-left: 5px;
+    // padding-right: 5px;
+    
+}
+
+.button-label {
+    font-size: 20px;
+  }
+  
+
+
+
+    
+    .bio-pic, .current-book-pic {
+        // margin: auto;
+        margin: 0;
+    }
+
+
+
+.website-background {
+    //This has to do with the path files--- Don't touch
+    background: url("../img/mosaic-background-edited-2.png");
+    // background: url("../img/mosaic-img-smaller.jpg");
+    // background-repeat :initial;
+    background-size: 600px;
+    width: 98%;
+    // padding-right: 120px;
+    // align-items: none;
+    border-radius: 5%;
+    border: 3px solid $secondary-green;
+
+    // margin-right: 50px;
+}
+
+
+// HEADER 
+
+.nav--nav-greeting-title {
+    font-size: 70px;
+
+
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+}
+
+
+
+
+
+
+// NAVIGATION
+
+
+nav {
+    position: fixed;    
+    z-index: 1;
+    width: 75px;
+    top: 150px;
+}
+
+.nav--flex-container {
+    flex-direction: column;
+    //THIS CHANGES THE POSITION OF THE NAV BUTTONS
+    justify-content: start;
+    gap:10px;
+
+}
+
+// .nav--upperflex-group {
+//     flex-direction: row;
+//     justify-content: center;
+
+// }
+
+// .nav--nav-link-container {
+//     justify-content: center;
+//     flex-wrap: wrap;
+// }
+
+.nav--nav-button {
+    flex-direction: column;
+
+    // margin: auto;
+}
+
+.nav--button-links {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-bottom: 15px;
+
+    // margin: auto;
+}
+
+
+
+// ABOUT ME
+
+// .about-me {
+//     padding-right: 10px;
+//     // padding-left: 10px;
+// }
+
+
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    // flex-basis: 50%;
+    // justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.picture-photo {
+    flex-basis: 50%;
+}
+
+.section-titles-background-aboutme {
+    margin-top: 40px;
+}
+
+.bio-pic {
+    margin-top: 10px;
+
+}
+
+
+// CHECK IT OUT
+
+.check-it-out {
+    flex-direction: column;
+    // justify-content: center;
+    // justify-content: space-around;
+
+}
+
+.main--check-flexcontainer {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.check--upper-group {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.section-titles-checkout {
+    margin-top: 70px;
+}
+
+.current-book-pic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+// .check--mid-group {
+//     flex-direction: column;
+
+// }
+
+// .check--lower-group {
+//     flex-direction: column;
+// }
+
+// MY BOOKS
+
+.section-titles-background-mybooks {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
+    font-size: 25px;
+
+}
+
+
+}

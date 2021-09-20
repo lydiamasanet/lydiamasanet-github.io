@@ -1,0 +1,64 @@
+// // ========//
+// //  IMAGE  //                   
+// // ========//
+
+
+//=============== NAV ===================
+
+.logo {
+    height: 85px;
+    width: 85px;
+    border-radius: 100%;
+    border: 1px outset #E4E7E7;
+    background-color: #ddd;
+    // flex-basis: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+ 
+}
+
+//=============== MAIN ===================
+
+//=============== MAIN >>>> ABOUT ME ===================
+
+.bio-pic {
+    // margin: auto;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    border: 3px outset #13D7D0;
+    margin: auto;
+}
+
+//=============== MAIN >>>> CHECK-OUT ===================
+
+.current-book-pic {
+    height: 200px;
+    width: 175px;
+    border-radius: 20%;
+    border: 3px outset white;
+    margin: auto;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.arrow-svg {
+    height: 150px;
+    width: 125px;
+    margin: auto;
+
+}
+
+//=============== MAIN >>>> PREVIEW ===================
+
+.preview-books-covers-1, .preview-books-covers-2, .preview-books-covers-3 {
+    height: 200px;
+    width: 175px;
+    border-radius: 10%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: #13D7D0 3px outset ;
+}
+

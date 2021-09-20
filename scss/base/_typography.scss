@@ -1,0 +1,85 @@
+// ============================================= 
+//                  Typography                      
+// =============================================
+
+* {
+  font-family: 'Lato', sans-serif;
+  // font-family: 'Roboto', sans-serif;
+  }
+
+
+//============= NAV ==============
+
+.nav--nav-greeting-title {
+  font-family: 'Courgette', sans-serif;
+  font-size: 30px;
+  color:  $main-blue;
+  text-shadow: -1px -.5px 0 white;
+  margin-top: 30px;
+
+  // text-align: center;
+
+}
+
+
+//============= MAIN ==============
+
+//------------- MAIN GENERAL FONTS -----------
+
+//----- FONTS FOR CONTENT WITH IMAGE BACKGROUND --------
+.section-titles-background-aboutme, .section-titles-background-mybooks {
+  font-size: 30px;
+  color: #0EA5A0;
+  text-shadow: -1px -.5px 0 #000;
+}
+
+//https://css-tricks.com/adding-stroke-to-web-text/
+.sections-content-background {
+  font-size: 15px;
+  color: #0EA5A0;
+  text-shadow: -1px -.5px 0 #000;
+  // padding-left: 3px;
+  // padding-right: 3px;
+}
+
+.sections-content, .sections-content-background {
+  // margin: auto;
+  text-align: center;
+
+}
+
+//------------- FONTS FOR CONTENT without IMAGE BACKGROUND -----------
+
+.section-titles-checkout {
+  font-size: 30px;
+  text-shadow: -1px -.5px 0 $secondary-green;
+  // margin: auto;
+
+}
+
+.sections-content {
+  font-size: 15px;
+  // padding-left: 3px;
+  // padding-right: 3px;
+  text-shadow: -1px -.5px 0 $secondary-green;
+}
+
+//  .section-titles, .section-titles-background, .sections-content, .sections-content-background {
+//   text-align: center;
+// }
+
+////------------- MAIN  MY BOOK SECTION -----------
+
+
+.preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
+  font-size: 20px;
+  color: #0EA5A0;
+  text-shadow: -1px -.5px 0 #000;
+  text-align: center;
+  // margin: auto;
+}
+
+.button-label {
+  font-size: 20px;
+}
+

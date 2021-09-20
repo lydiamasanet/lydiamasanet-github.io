@@ -1,0 +1,795 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.nav--nav-greeting-title {
+  font-family: 'Courgette', sans-serif;
+  font-size: 30px;
+  color: #1285CB;
+  text-shadow: -1px -.5px 0 white;
+  margin-top: 30px;
+}
+
+.section-titles-background-aboutme, .section-titles-background-mybooks {
+  font-size: 30px;
+  color: #0EA5A0;
+  text-shadow: -1px -.5px 0 #000;
+}
+
+.sections-content-background {
+  font-size: 15px;
+  color: #0EA5A0;
+  text-shadow: -1px -.5px 0 #000;
+}
+
+.sections-content, .sections-content-background {
+  text-align: center;
+}
+
+.section-titles-checkout {
+  font-size: 30px;
+  text-shadow: -1px -0.5px 0 #8DE7E6;
+}
+
+.sections-content {
+  font-size: 15px;
+  text-shadow: -1px -0.5px 0 #8DE7E6;
+}
+
+.preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
+  font-size: 20px;
+  color: #0EA5A0;
+  text-shadow: -1px -.5px 0 #000;
+  text-align: center;
+}
+
+.button-label {
+  font-size: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  background-color: #13D7D0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+nav, .about-me, .check-it-out, .my-books {
+  border-bottom: 7px solid #8DE7E6;
+}
+
+.website-background {
+  background: url("../img/mosaic-background-edited-2.png");
+  background-size: 600px;
+}
+
+.solid-color-background {
+  background-color: #13D7D0;
+}
+
+.button-label {
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  color: #1285CB;
+}
+
+.nav--button-label {
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: #1285CB;
+}
+
+.nav--button-links {
+  margin: auto;
+  width: 89%;
+  height: 50px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #24C2BF;
+  text-shadow: -1px -.5px 0 #000;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.button-links {
+  margin: auto;
+  width: 89%;
+  height: 25px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #24C2BF;
+  text-shadow: -1px -.5px 0 #000;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.nav--link-button {
+  font-size: 20px;
+  text-decoration: none;
+  color: #1285CB;
+  background-color: #F6F6F6;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.logo {
+  height: 85px;
+  width: 85px;
+  border-radius: 100%;
+  border: 1px outset #E4E7E7;
+  background-color: #ddd;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.bio-pic {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  border: 3px outset #13D7D0;
+  margin: auto;
+}
+
+.current-book-pic {
+  height: 200px;
+  width: 175px;
+  border-radius: 20%;
+  border: 3px outset white;
+  margin: auto;
+}
+
+.arrow-svg {
+  height: 150px;
+  width: 125px;
+  margin: auto;
+}
+
+.preview-books-covers-1, .preview-books-covers-2, .preview-books-covers-3 {
+  height: 200px;
+  width: 175px;
+  border-radius: 10%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: #13D7D0 3px outset;
+}
+
+footer h3, small {
+  margin: auto;
+}
+
+.footer--top-button {
+  color: #1285CB;
+  font-family: 'Courgette', sans-serif;
+  text-shadow: -1px -.5px 0 white;
+}
+
+nav, main, footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header--flex-container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav--flex-container,
+.nav--upperflex-group,
+.nav--nav-link-container,
+.nav--nav-button,
+.logo,
+.nav--button-links,
+.nav--nav-greeting-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav--flex-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.nav--upperflex-group {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav--nav-link-container {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav--nav-button {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-titles-background, .section-titles, .section-titles-background-aboutme, .section-titles-checkout, .section-titles-background-mybooks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-titles, .section-titles-background, .section-titles-background-aboutme, .section-titles-checkout, .section-titles-background-mybooks {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main--flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-me,
+.main--aboutme-flexcontainer,
+.bio-pic,
+.sections-content-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-me {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main--aboutme-flexcontainer {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.check-it-out,
+.main--check-flexcontainer,
+.section-titles-checkout,
+.current-book-pic,
+.sections-content,
+.check--upper-group,
+.check--mid-group,
+.check--lower-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.check-it-out {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main--check-flexcontainer {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.check--upper-group {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+}
+
+.check--mid-group {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.check--lower-group {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.my-books,
+.mybooks--title-group,
+.mybooks--content-section,
+.book-div,
+.row-preview,
+.preview-books-covers-1, .preview-book-title-1,
+.preview-books-covers-2, .preview-book-title-2,
+.preview-books-covers-3, .preview-book-title-3,
+a .button-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.my-books {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mybooks--title-group {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mybooks--content-section {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.book-div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.row-preview {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.preview-book-title {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer, small, .footer--top-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer--top-button, .footer--copyright {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.grid {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 100px 70px 1fr;
+      grid-template-rows: 100px 70px 1fr;
+      grid-template-areas: "header" "nav" "main";
+}
+
+header {
+  background-color: #13D7D0;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+}
+
+nav {
+  background-color: #13D7D0;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nav;
+}
+
+main {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: main;
+}
+
+footer {
+  background-color: #13D7D0;
+}
+
+.button-links.user {
+  height: 100px;
+  width: 100px;
+  background-color: #8DE7E6;
+  -webkit-box-shadow: 0 0 0 5px #8DE7E6;
+          box-shadow: 0 0 0 5px #8DE7E6;
+  border-radius: 50%;
+}
+
+.button-links:hover {
+  cursor: pointer;
+  -webkit-animation: bounceOut .4s linear;
+          animation: bounceOut .4s linear;
+}
+
+@-webkit-keyframes bounceOut {
+  0% {
+    -webkit-box-shadow: 0 0 0 4px #8DE7E6;
+            box-shadow: 0 0 0 4px #8DE7E6;
+    opacity: 1;
+  }
+  25% {
+    -webkit-box-shadow: 0 0 0 1px #8DE7E6;
+            box-shadow: 0 0 0 1px #8DE7E6;
+    opacity: 1;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 0 7px #8DE7E6;
+            box-shadow: 0 0 0 7px #8DE7E6;
+    opacity: 1;
+  }
+  75% {
+    -webkit-box-shadow: 0 0 0 4px #8DE7E6;
+            box-shadow: 0 0 0 4px #8DE7E6;
+    opacity: 1;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 5px #8DE7E6;
+            box-shadow: 0 0 0 5px #8DE7E6;
+    opacity: 1;
+  }
+}
+
+@keyframes bounceOut {
+  0% {
+    -webkit-box-shadow: 0 0 0 4px #8DE7E6;
+            box-shadow: 0 0 0 4px #8DE7E6;
+    opacity: 1;
+  }
+  25% {
+    -webkit-box-shadow: 0 0 0 1px #8DE7E6;
+            box-shadow: 0 0 0 1px #8DE7E6;
+    opacity: 1;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 0 7px #8DE7E6;
+            box-shadow: 0 0 0 7px #8DE7E6;
+    opacity: 1;
+  }
+  75% {
+    -webkit-box-shadow: 0 0 0 4px #8DE7E6;
+            box-shadow: 0 0 0 4px #8DE7E6;
+    opacity: 1;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 5px #8DE7E6;
+            box-shadow: 0 0 0 5px #8DE7E6;
+    opacity: 1;
+  }
+}
+
+.nav--button-links.user {
+  height: 100px;
+  width: 100px;
+  background-color: #8DE7E6;
+  -webkit-box-shadow: 0 0 0 5px #8DE7E6;
+          box-shadow: 0 0 0 5px #8DE7E6;
+  border-radius: 50%;
+}
+
+.nav--button-links:hover {
+  cursor: pointer;
+  -webkit-animation: bounceOut .4s linear;
+          animation: bounceOut .4s linear;
+}
+
+@keyframes bounceOut {
+  0% {
+    -webkit-box-shadow: 0 0 0 4px #8DE7E6;
+            box-shadow: 0 0 0 4px #8DE7E6;
+    opacity: 1;
+  }
+  25% {
+    -webkit-box-shadow: 0 0 0 1px #8DE7E6;
+            box-shadow: 0 0 0 1px #8DE7E6;
+    opacity: 1;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 0 7px #8DE7E6;
+            box-shadow: 0 0 0 7px #8DE7E6;
+    opacity: 1;
+  }
+  75% {
+    -webkit-box-shadow: 0 0 0 4px #8DE7E6;
+            box-shadow: 0 0 0 4px #8DE7E6;
+    opacity: 1;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 5px #8DE7E6;
+            box-shadow: 0 0 0 5px #8DE7E6;
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 613px) {
+  .grid {
+    height: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 75px 1fr;
+        grid-template-columns: 75px 1fr;
+    -ms-grid-rows: 135px 1fr;
+        grid-template-rows: 135px 1fr;
+        grid-template-areas: "header header" "nav main";
+  }
+  header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: header;
+  }
+  nav {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: nav;
+  }
+  main {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: main;
+  }
+  nav, .about-me, .check-it-out, .my-books {
+    border-bottom: none;
+    margin-bottom: 20px;
+  }
+  .section-titles-background-aboutme, .section-titles-checkout, .section-titles-background-mybooks {
+    text-align: initial;
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    font-size: 40px;
+  }
+  .sections-content-background, .sections-content {
+    font-size: 25px;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+  }
+  .button-label {
+    font-size: 20px;
+  }
+  .bio-pic, .current-book-pic {
+    margin: 0;
+  }
+  .website-background {
+    background: url("../img/mosaic-background-edited-2.png");
+    background-size: 600px;
+    width: 98%;
+    border-radius: 5%;
+    border: 3px solid #8DE7E6;
+  }
+  .nav--nav-greeting-title {
+    font-size: 70px;
+  }
+  .logo {
+    height: 120px;
+    width: 120px;
+  }
+  nav {
+    position: fixed;
+    z-index: 1;
+    width: 75px;
+    top: 150px;
+  }
+  .nav--flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    gap: 10px;
+  }
+  .nav--nav-button {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav--button-links {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .picture-photo {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .section-titles-background-aboutme {
+    margin-top: 40px;
+  }
+  .bio-pic {
+    margin-top: 10px;
+  }
+  .check-it-out {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main--check-flexcontainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .check--upper-group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0;
+  }
+  .section-titles-checkout {
+    margin-top: 70px;
+  }
+  .current-book-pic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .section-titles-background-mybooks {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 818px) {
+  .grid {
+    height: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 75px 1fr;
+        grid-template-columns: 75px 1fr;
+    -ms-grid-rows: 135px 1fr;
+        grid-template-rows: 135px 1fr;
+        grid-template-areas: "header header" "nav main";
+  }
+  header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: header;
+  }
+  nav {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: nav;
+  }
+  main {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: main;
+  }
+  .website-background {
+    background-size: 725px;
+    width: 98%;
+  }
+  .section-titles-background-aboutme, .section-titles-checkout, .section-titles-background-mybooks {
+    font-size: 45px;
+  }
+  .book-div {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .row-preview {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 10%;
+  }
+  .preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
+    font-size: 30px;
+  }
+  .preview-books-covers-1, .preview-books-covers-2, .preview-books-covers-3 {
+    height: 250px;
+    width: 225px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+  .button-links {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,19 @@
+
+
+// TEXT BOX MIXINS
+@mixin common-text-box {
+    opacity: .8;
+    background-color: $secondary-color;
+    border-radius: 10%;
+    box-shadow: 3px 4px  #737373;
+}
+
+//THE BORDER FOR TEXT AND PICTURES (NOT FOR LOGO)
+@mixin border-pic {
+border: $secondary-color solid 2px;
+border-radius: 10%;
+}
+
+@mixin solid-background {
+    background-color: #13D7D0;
+}

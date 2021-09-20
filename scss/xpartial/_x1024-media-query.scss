@@ -1,0 +1,77 @@
+
+// ========== 768PX MEDIA QUERY ==========
+
+// @media (min-width: 768px) {
+    @media screen and (min-width: 818px) {
+
+        .grid {
+            height: 100%;
+            display: grid;
+            grid-template-columns: 75px 1fr;
+            grid-template-rows: 135px 1fr;
+            grid-template-areas:  
+            "header header"
+            "nav main";
+            // color: red;
+            // background-color: red;
+        // color: red;
+        }
+        
+        header {
+            // @include solid-background;
+            grid-area: header;
+        }
+        
+        nav {
+            // @include solid-background;
+            grid-area: nav;
+        }
+        
+        main {
+            // background-color: pink;
+            grid-area: main;
+        }
+
+        //GENERAL STUFF
+
+        .website-background {
+            background-size: 725px;
+            width: 98%;
+        }
+
+        .section-titles-background-aboutme, .section-titles-checkout, .section-titles-background-mybooks {
+            font-size: 45px;
+        }
+
+// MY BOOKS SECTIONS
+
+.book-div {
+    flex-direction: row;
+
+}
+
+.row-preview {
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
+    font-size: 30px;
+
+}
+
+
+.preview-books-covers-1, .preview-books-covers-2, .preview-books-covers-3 {
+    height: 250px;
+    width: 225px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    flex-basis: 40%;
+}
+
+.button-links {
+    width: 50%;
+
+}
+
+    }

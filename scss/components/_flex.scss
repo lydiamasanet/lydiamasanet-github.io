@@ -1,0 +1,248 @@
+// //========================
+// //      Flex
+// //========================
+
+
+// ========== GENERAL =============
+
+nav, main, footer {
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+// GENERAL STUFF
+
+// .sections-content, .sections-content-background {
+//     justify-content: center;
+
+// }
+
+
+
+// ========= HEADER =============
+
+
+header {
+    display: flex;
+}
+
+.header--flex-container {
+    flex-direction: row;
+}
+
+// .nav--nav-greeting-title, 
+
+
+
+
+
+
+
+// ========= NAVIGATION =============
+
+// nav {
+//     // flex-direction: column;
+// }
+
+.nav--flex-container,
+.nav--upperflex-group,
+.nav--nav-link-container,
+.nav--nav-button,
+// .nav--button,
+.logo,
+.nav--button-links,
+.nav--nav-greeting-title {
+    display: flex;
+
+}
+
+.nav--flex-container {
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+
+}
+
+.nav--upperflex-group {
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.nav--nav-link-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav--nav-button {
+    flex-direction: row;
+    // margin: auto;
+}
+
+// MINOR BODY TYPO TO CENTER
+
+.section-titles-background, .section-titles, .section-titles-background-aboutme, .section-titles-checkout, .section-titles-background-mybooks {
+    display: flex;
+
+}
+
+
+.section-titles, .section-titles-background, .section-titles-background-aboutme, .section-titles-checkout, .section-titles-background-mybooks {
+    justify-content: center;
+}
+
+
+.preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
+    justify-content: center;
+}
+
+// ========= MAIN =============
+
+//---------- MAIN FLEX GENERAL -------------
+
+.main--flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+//---------- ABOYUT ME SECTION -------------
+
+.about-me,
+.main--aboutme-flexcontainer,
+.bio-pic,
+.sections-content-background {
+    display: flex;
+}
+
+.about-me {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main--aboutme-flexcontainer {
+    flex-direction: column;
+}
+
+
+//---------- CHECK IT OUT SECTION -------------
+
+
+.check-it-out,
+.main--check-flexcontainer,
+
+.section-titles-checkout,
+.current-book-pic,
+.sections-content,
+.check--upper-group,
+.check--mid-group,
+.check--lower-group {
+    display: flex;
+}
+
+.check-it-out {
+    flex-direction: column;
+    // justify-content: center;
+}
+
+.main--check-flexcontainer {
+    flex-direction: column;
+}
+
+.check--upper-group {
+    flex-direction: column;
+    margin: auto;
+}
+
+.check--mid-group {
+    flex-direction: column;
+}
+
+.check--lower-group {
+    flex-direction: column;
+}
+// .main--check-flexcontainer {
+//     flex-direction: column;
+// }
+
+// .check--upper-group {
+//     flex-direction: column;
+//     margin: auto;
+// }
+
+// .check--mid-group {
+//     flex-direction: column;
+// }
+
+// .check--lower-group {
+//     flex-direction: column;
+// }
+
+//---------- MY BOOKS SECTION -------------
+
+.my-books, 
+.mybooks--title-group, 
+.mybooks--content-section,
+.book-div, 
+.row-preview, 
+.preview-books-covers-1, .preview-book-title-1,
+.preview-books-covers-2, .preview-book-title-2,
+.preview-books-covers-3, .preview-book-title-3,
+a .button-links {
+    display: flex;
+}
+
+.my-books {
+    flex-direction: column;
+}
+
+.mybooks--title-group {
+    flex-direction: column;
+}
+
+.mybooks--content-section {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.book-div {
+    flex-direction: column;
+}
+
+.row-preview {
+    flex-direction: column;
+}
+
+.preview-book-title {
+    flex-wrap: wrap;
+}
+
+
+//---------- FOOTER SECTION -------------
+
+// footer {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+footer, small, .footer--top-button {
+    display: flex;
+}
+
+footer {
+    flex-direction: column;
+}
+
+.footer--top-button,  .footer--copyright {
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+
