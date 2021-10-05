@@ -50,6 +50,17 @@
 
 }
 
+.check--review-pic  {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    border: 3px outset $main-blue;
+    // flex-basis: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
 //=============== MAIN >>>> PREVIEW ===================
 
 .preview-books-covers-1, .preview-books-covers-2, .preview-books-covers-3 {
@@ -61,4 +72,5 @@
     align-items: center;
     border: #13D7D0 3px outset ;
 }
+
 
