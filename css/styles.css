@@ -329,6 +329,7 @@ header {
 .check--lower-group,
 .check--link-group,
 .check--link-upper-section,
+.secondary-titles-checkout,
 .check--link-lower-section,
 .check--review-pic {
   display: -webkit-box;
@@ -370,6 +371,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 15px;
 }
 
 .check--link-group {
@@ -384,6 +386,12 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.secondary-titles-checkout {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .my-books,
@@ -823,7 +831,7 @@ footer {
   }
   .preview-books-covers-1, .preview-books-covers-2, .preview-books-covers-3 {
     height: 250px;
-    width: 225px;
+    max-width: 245px;
     margin-left: 10px;
     margin-bottom: 5px;
     -ms-flex-preferred-size: 40%;

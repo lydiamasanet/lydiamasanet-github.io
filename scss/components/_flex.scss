@@ -139,7 +139,7 @@ header {
 .check--lower-group,
 .check--link-group,
 .check--link-upper-section,
-// .secondary-titles-checkout,
+.secondary-titles-checkout,
 .check--link-lower-section,
 .check--review-pic {
     display: flex;
@@ -165,6 +165,8 @@ header {
 
 .check--lower-group {
     flex-direction: column;
+    margin-bottom: 15px;
+
 }
 
 .check--link-group {
@@ -176,6 +178,14 @@ header {
     // justify-content: space-around;
 }
 
+.secondary-titles-checkout {
+    justify-content: center;
+
+}
+
+// .check--link-group {
+//     gap: 10px;
+// }
 
 
 
