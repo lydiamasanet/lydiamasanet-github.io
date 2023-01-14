@@ -51,12 +51,10 @@ header {
 .nav--upperflex-group,
 .nav--nav-link-container,
 .nav--nav-button,
-// .nav--button,
 .logo,
 .nav--button-links,
 .nav--nav-greeting-title {
     display: flex;
-
 }
 
 .nav--flex-container {
@@ -138,7 +136,12 @@ header {
 .sections-content,
 .check--upper-group,
 .check--mid-group,
-.check--lower-group {
+.check--lower-group,
+.check--link-group,
+.check--link-upper-section,
+.secondary-titles-checkout,
+.check--link-lower-section,
+.check--review-pic {
     display: flex;
 }
 
@@ -162,7 +165,33 @@ header {
 
 .check--lower-group {
     flex-direction: column;
+    margin-bottom: 15px;
+
 }
+
+.check--link-group {
+    flex-direction: column;
+}
+
+.check--link-lower-section {
+    flex-direction: row;
+    // justify-content: space-around;
+}
+
+.secondary-titles-checkout {
+    justify-content: center;
+
+}
+
+// .check--link-group {
+//     gap: 10px;
+// }
+
+
+
+
+
+
 // .main--check-flexcontainer {
 //     flex-direction: column;
 // }

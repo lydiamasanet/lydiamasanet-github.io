@@ -29,17 +29,17 @@
 //----- FONTS FOR CONTENT WITH IMAGE BACKGROUND --------
 .section-titles-background-aboutme, .section-titles-background-mybooks {
   font-size: 30px;
-  color: #0EA5A0;
-  text-shadow: -1px -.5px 0 #000;
+  color: #0C4567;
+  // color: #0EA5A0;
+  text-shadow: -2px -1px 0 #0EA5A0;
 }
 
 //https://css-tricks.com/adding-stroke-to-web-text/
 .sections-content-background {
   font-size: 15px;
-  color: #0EA5A0;
-  text-shadow: -1px -.5px 0 #000;
-  // padding-left: 3px;
-  // padding-right: 3px;
+  color: #0C4567;
+  text-shadow: -2px -1px 0 #0EA5A0;
+
 }
 
 .sections-content, .sections-content-background {
@@ -47,6 +47,9 @@
   text-align: center;
 
 }
+
+
+
 
 //------------- FONTS FOR CONTENT without IMAGE BACKGROUND -----------
 
@@ -56,11 +59,19 @@
   // margin: auto;
 
 }
+.secondary-titles-checkout {
+  font-size: 25px;
+  text-shadow: -1px -.5px 0 $secondary-green;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+
+
+}
 
 .sections-content {
   font-size: 15px;
-  // padding-left: 3px;
-  // padding-right: 3px;
   text-shadow: -1px -.5px 0 $secondary-green;
 }
 
@@ -73,8 +84,8 @@
 
 .preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
   font-size: 20px;
-  color: #0EA5A0;
-  text-shadow: -1px -.5px 0 #000;
+  color: #0C4567;
+  text-shadow: -2px -1px 0 #0EA5A0;
   text-align: center;
   // margin: auto;
 }

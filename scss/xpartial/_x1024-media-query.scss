@@ -2,7 +2,8 @@
 // ========== 768PX MEDIA QUERY ==========
 
 // @media (min-width: 768px) {
-    @media screen and (min-width: 818px) {
+    // @media screen and (min-width: 818px) {
+    @media screen and (min-width: 1024px) {
 
         .grid {
             height: 100%;
@@ -63,7 +64,7 @@
 
 .preview-books-covers-1, .preview-books-covers-2, .preview-books-covers-3 {
     height: 250px;
-    width: 225px;
+    max-width: 245px;
     margin-left: 10px;
     margin-bottom: 5px;
     flex-basis: 40%;

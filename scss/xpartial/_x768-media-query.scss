@@ -2,7 +2,8 @@
 // ========== 768PX MEDIA QUERY ==========
 
 // @media (min-width: 768px) {
-@media screen and (min-width: 613px) {
+// @media screen and (min-width: 613px) {
+@media screen and (min-width: 768px) {
 
 .grid {
     height: 100%;
@@ -63,17 +64,11 @@ margin: auto;    // padding-left: 5px;
 .button-label {
     font-size: 20px;
   }
-  
-
-
-
-    
-    .bio-pic, .current-book-pic {
+   
+.bio-pic, .current-book-pic {
         // margin: auto;
         margin: 0;
-    }
-
-
+}
 
 .website-background {
     //This has to do with the path files--- Don't touch
@@ -234,6 +229,12 @@ nav {
 .preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
     font-size: 25px;
 
+}
+
+.secondary-titles-checkout {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 35px;
 }
 
 

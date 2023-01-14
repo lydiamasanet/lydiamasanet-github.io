@@ -12,14 +12,14 @@
 
 .section-titles-background-aboutme, .section-titles-background-mybooks {
   font-size: 30px;
-  color: #0EA5A0;
-  text-shadow: -1px -.5px 0 #000;
+  color: #0C4567;
+  text-shadow: -2px -1px 0 #0EA5A0;
 }
 
 .sections-content-background {
   font-size: 15px;
-  color: #0EA5A0;
-  text-shadow: -1px -.5px 0 #000;
+  color: #0C4567;
+  text-shadow: -2px -1px 0 #0EA5A0;
 }
 
 .sections-content, .sections-content-background {
@@ -31,6 +31,15 @@
   text-shadow: -1px -0.5px 0 #8DE7E6;
 }
 
+.secondary-titles-checkout {
+  font-size: 25px;
+  text-shadow: -1px -0.5px 0 #8DE7E6;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .sections-content {
   font-size: 15px;
   text-shadow: -1px -0.5px 0 #8DE7E6;
@@ -38,8 +47,8 @@
 
 .preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
   font-size: 20px;
-  color: #0EA5A0;
-  text-shadow: -1px -.5px 0 #000;
+  color: #0C4567;
+  text-shadow: -2px -1px 0 #0EA5A0;
   text-align: center;
 }
 
@@ -153,6 +162,15 @@ nav, .about-me, .check-it-out, .my-books {
   height: 150px;
   width: 125px;
   margin: auto;
+}
+
+.check--review-pic {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  border: 3px outset #1285CB;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .preview-books-covers-1, .preview-books-covers-2, .preview-books-covers-3 {
@@ -308,7 +326,12 @@ header {
 .sections-content,
 .check--upper-group,
 .check--mid-group,
-.check--lower-group {
+.check--lower-group,
+.check--link-group,
+.check--link-upper-section,
+.secondary-titles-checkout,
+.check--link-lower-section,
+.check--review-pic {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -348,6 +371,27 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.check--link-group {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.check--link-lower-section {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.secondary-titles-checkout {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .my-books,
@@ -575,7 +619,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 613px) {
+@media screen and (min-width: 768px) {
   .grid {
     height: 100%;
     display: -ms-grid;
@@ -728,9 +772,14 @@ footer {
   .preview-book-title-1, .preview-book-title-2, .preview-book-title-3 {
     font-size: 25px;
   }
+  .secondary-titles-checkout {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 35px;
+  }
 }
 
-@media screen and (min-width: 818px) {
+@media screen and (min-width: 1024px) {
   .grid {
     height: 100%;
     display: -ms-grid;
@@ -782,7 +831,7 @@ footer {
   }
   .preview-books-covers-1, .preview-books-covers-2, .preview-books-covers-3 {
     height: 250px;
-    width: 225px;
+    max-width: 245px;
     margin-left: 10px;
     margin-bottom: 5px;
     -ms-flex-preferred-size: 40%;
